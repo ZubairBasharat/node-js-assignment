@@ -1,0 +1,17 @@
+{
+  "MONGODB": {
+    "DB_NAME": "assignment",
+    "LOCALHOST": {
+      "URL": "mongodb://localhost:27017/assignment"
+    },
+    "TEST": {
+      "URL": "mongodb://localhost:27017/assignment"
+    },
+    "LIVE": {
+      "URL": "mongodb://localhost:27017/assignment"
+    },
+    "STAGING": {
+      "URL": "mongodb://localhost:27017/assignment"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+ **README.md**
+
+# Getting Started
+
+This guide will walk you through setting up MongoDB, running the Node.js server, and testing the APIs in Postman.
+
+## Prerequisites
+
+- Node.js and npm (or yarn) installed on your machine.
+- Postman (or any other API testing tool) installed.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/ZubairBasharat/node-js-assignment.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd <your-repo-name>
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## Setting up MongoDB
+
+1. **Install MongoDB:**
+   - Follow the official MongoDB installation guide for your operating system: [https://docs.mongodb.com/manual/installation/](https://docs.mongodb.com/manual/installation/)
+2. **Start MongoDB:**
+   - Run the following command in your terminal:
+     ```bash
+     mongod
+     ```
+
+## Running the Node.js Server
+
+1. **Set environment variables (optional):**
+   - If your application requires environment variables, create a `.env` file in the project root and add the necessary variables.
+2. **Start the server:**
+   ```bash
+   npm start
+   ```
+
+## Testing the APIs in Postman
+
+1. **Open Postman:**
+2. **Import the collection (optional):**
+   - If you have a Postman collection file, import it into Postman.
+3. **Make API requests:**
+   - Use the appropriate HTTP methods (GET, POST, PUT, DELETE) and endpoints for your APIs.
+   - Provide necessary headers and request body data as required by the API documentation.
+   - Observe the response received in Postman.
+
+**Troubleshooting:**
+
+- If you encounter any issues, refer to the application's error logs for more details.
+- Ensure that MongoDB is running correctly and accessible to the Node.js server.
+- Double-check API endpoints and request data for accuracy.
+
+**Additional Notes:**
+
+- Provide any specific instructions for your application, such as creating a database or user in MongoDB.
+- Include links to relevant documentation or resources for further assistance.

@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "43723987-1498-42d7-a037-a4dedb4cfebf",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21393210",
+		"_collection_link": "https://interstellar-firefly-300026.postman.co/workspace/af132a31-bd1a-4272-8f34-4dd4f1a7eb96/collection/21393210-43723987-1498-42d7-a037-a4dedb4cfebf?action=share&source=collection_link&creator=21393210"
+	},
+	"item": [
+		{
+			"name": "Placing an Order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"John\",\r\n  \"orderSide\": \"sell\",\r\n  \"stockTicker\": \"Facebook\",\r\n  \"stockPrice\": 150.00,\r\n  \"orderSharesQuantity\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5005/order/place-order"
+			},
+			"response": []
+		},
+		{
+			"name": "GetSellRestingSharesByTicker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5005/order/getSellRestingShares/Facebook"
+			},
+			"response": []
+		},
+		{
+			"name": "GetExecutedOrdersByTicker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5005/order/getExecutedOrders/Facebook"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBuyRestingSharesByTicker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5005/order/getBuyRestingShares/Facebook"
+			},
+			"response": []
+		},
+		{
+			"name": "GetSellRestingOrdersByTicker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5005/order/getSellRestingOrders/Facebook"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBuyRestingOrdersByTicker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5005/order/getBuyRestingOrders/Facebook"
+			},
+			"response": []
+		}
+	]
+}
